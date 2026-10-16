@@ -199,7 +199,7 @@ export default {
 
       try {
         const { data } = await api.get(
-          `http://10.107.0.2:3000/parent-portal/students/${encodeURIComponent(number)}`
+          `http://10.107.0.2:4040/parent-portal/students/${encodeURIComponent(number)}`
         );
 
         if (!data || !data.success || !data.data) {

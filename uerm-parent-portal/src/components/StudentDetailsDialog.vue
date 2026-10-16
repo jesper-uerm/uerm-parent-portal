@@ -1,6 +1,6 @@
 <template>
   <q-dialog v-model="isOpen" persistent>
-    <q-card style="width: 1300px; max-width: 90vw; height: 650px" class="column">
+    <q-card style="width: 1300px; max-width: 90vw; height: 1000px" class="column">
       <q-card-section class="q-pa-none">
         <div class="row items-center q-px-md q-py-md" style="background-color: #f5f7fa">
           <q-avatar size="64px" class="q-mr-md">
@@ -121,7 +121,7 @@
               </div>
             </div>
 
-            <div v-if="grades.length === 0" class="text-center text-grey-6 q-pa-xl">
+            <div v-if="grades.length === 0" class="text-center text-grey-6 q-pa-md">
               No grade records found.
             </div>
 

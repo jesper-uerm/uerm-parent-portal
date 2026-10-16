@@ -180,7 +180,7 @@ export default {
         };
 
         const response = await api.post(
-          "http://10.107.0.2:3000/parent-portal/registration/register",
+          "http://10.107.0.2:4040/parent-portal/registration/register",
           payload
         );
 
